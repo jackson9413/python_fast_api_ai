@@ -34,15 +34,17 @@ Your application will be available at http://localhost:8000.
 
 ## API Endpoints
 ### Root Endpoint
-    ```sh
-    GET /
-    ```
+
+```sh
+GET /
+```
 Returns a simple greeting message.
 
 ### Ask Endpoint
-    ```sh
-    POST /ask
-    ```
+
+```sh
+POST /ask
+```
 Accepts a text question and an image file, and returns the answer based on the AI model.
 
 ### Request Parameters
